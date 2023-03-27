@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yJX-b0-rJU">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QlS-Pg-Oq8">
+            <objects>
+                <viewController id="yJX-b0-rJU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y3l-m4-z13">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mountainSunWallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="3Vl-BZ-Dl0">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.94901961089999998" green="0.67450982329999998" blue="0.55294120309999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LN3-KA-y9Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3Vl-BZ-Dl0" firstAttribute="top" secondItem="y3l-m4-z13" secondAttribute="top" id="BNv-Ow-R1F"/>
+                            <constraint firstItem="3Vl-BZ-Dl0" firstAttribute="trailing" secondItem="LN3-KA-y9Z" secondAttribute="trailing" id="EYo-Tj-yKP"/>
+                            <constraint firstItem="3Vl-BZ-Dl0" firstAttribute="leading" secondItem="LN3-KA-y9Z" secondAttribute="leading" id="d7g-ES-qi5"/>
+                            <constraint firstAttribute="bottom" secondItem="3Vl-BZ-Dl0" secondAttribute="bottom" id="wTq-KQ-MqH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SGL-My-4IA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mountainSunWallpaper" width="564" height="1002"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
